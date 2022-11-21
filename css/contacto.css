@@ -1,0 +1,19 @@
+body {
+    background: #fdf5ea;
+}
+.bg {
+    background-image: url('../img/Shakira2-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contenedor {
+    background: #e2b890;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+a:hover {
+    color: white;
+}
