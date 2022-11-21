@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shakira</title>
+        <link rel="icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="css/fuentes.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icons.min.css">
+        <link rel="stylesheet" href="css/player.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body >
+        <!-- Loading-->
+        <div class="preloader">
+            <div class="preloader-block">
+                <div class="preloader-icon">
+                    <span class="loading-dot loading-dot-1"></span>
+                    <span class="loading-dot loading-dot-2"></span>
+                    <span class="loading-dot loading-dot-3"></span>
+                </div>
+            </div>
+        </div>
+        <div id="overlay-effect"></div>
+
+        <!-- Navbar-->
+        <nav class="navbar-expand-md navbar fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="img/logob.png">
+            </a>
+            <span class="navbar-menu ms-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button">
+                <span class="btn-line"></span>
+            </span>
+            <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="familia.html">Familia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amigos.html">Amigos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="estudios.html">Estudios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Section-->
+        <section class="home-area element-cover-bg video-variant" id="home" style="background-image:url(img/home.jpg)">
+            <div class="player" id="homeVideo"
+                data-property="{videoURL:'https://youtu.be/I22YISDSCE0',containment:'#home',autoPlay:true, mute:true, showControls:false, stopMovieOnBlur:false, showYTLogo: false}">
+            </div>
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12 col-lg-8 home-content text-center">
+                        <h1 class="home-name">Shakira</h1>
+                        <h4 class="cd-headline clip home-headline">
+                            <span class="cd-words-wrapper single-headline">
+                                <b class="is-visible">Cantante</b>
+                                <b>Bailarina</b>
+                                <b>Actriz</b>
+                                <b>Empresaria</b>
+                            </span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mb-4">
+            <div class="row">
+                <div class="col-md-7 biografia">
+                    <h3 class="main-titulo">Acerca de...</h3>
+                    <p class="main-parrafo mt-5">Shakira define su estilo de música de una forma especial: "Una masa sin definir. Soy una cantante de pop con corazón
+                    rockero y, por casualidad, mi música se cuela en el dance".</p>
+                    <p class="main-parrafo mt-4">El mestizaje de los sonidos da unos resultados asombrosos.
+                    Con tan solo 10 años ya componía sus primeras canciones, lo que le ha llevado a su corta edad a tener un repertorio
+                    propio de más de cuarenta piezas. Desde que sus padres descubrieron el talento de su hija ésta empezó a participar en
+                    concursos infantiles.</p>
+                </div>
+                <div class="col-md-4 offset-md-1 mt-5">
+                    <img src="img/biografia.png" width="100%">
+                </div>
+            </div>
+        </section>
+        
+        <section class="container videos text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.youtube.com/watch?v=j5y6xLpRwx4" target="_blank">
+                        <img src="img/album_1.png" width="100%">
+                        <div class="album-texto"><span>Monotonía</span></div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.youtube.com/watch?v=sPTn0QEhxds&list=OLAK5uy_mLAIIooZEcieJ0n0XKRm6fu-i0khGktBo" target="_blank">
+                        <img src="img/album_2.png" width="100%">
+                        <div class="album-texto"><span>El Dorado</span></div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.youtube.com/watch?v=fWU3pEMPrHw&list=OLAK5uy_m_bY08hbBEo54UoSMizquhuMpl1gTipv4" target="_blank">
+                        <img src="img/album_3.png" width="100%">
+                        <div class="album-texto"><span>Deluxe Version</span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container perfumes">
+            <div class="row">
+                <div class="col-md-3 offset-md-1">
+                    <img src="img/perfume.jpg" width="100%">
+                </div>
+                <div class="col-md-8 info">
+                    <h3 class="main-titulo text-center mt-5">Shakira | Perfumes</h3>
+                    <p class="main-parrafo mt-4">Shakira sube a los escenarios de todo el mundo para compartir su música y recibir el amor de sus fans. Sus perfumes Rock! Son una dedicatoria a todos ellos y a ti en especial.</p>
+                    <figure class="mt-5">
+                        <blockquote class="blockquote">
+                            <p class="main-parrafo text-end">"Descubre los brillantes resultados por ti mismo"</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer text-end">
+                            <cite>Shakira</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mt-5">
+                        <img src="img/logo.png" width="80%">
+                    </div>
+                    <div class="col-md-2 mt-4">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li ><a href="https://www.shakiraperfumes.com/pe/es" target="_blank">Perfumes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 mt-4">
+                        <ul>
+                            <li><a href="https://www.shakira.com/videos" target="_blank">Videos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 redes text-end">
+                        <a href="https://www.facebook.com/shakira" target="_blank"><i class="fe-facebook"></i></a>
+                        <a href="https://www.twitter.com/shakira" target="_blank"><i class="fe-twitter"></i></a>
+                        <a href="https://www.instagram.com/shakira" target="_blank"><i class="fe-instagram"></i></a>
+                        <a href="https://www.youtube.com/shakira" target="_blank"><i class="fe-youtube"></i></a>
+                    </div>
+                </div>
+                <h6 class="text-center mt-5">© Copyright | Derechos reservados - Certus - FrontEnd 2022</h6>
+            </div>
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/animated.js"></script>
+        <script src="js/player.min.js"></script>
+    </body>
+</html>
