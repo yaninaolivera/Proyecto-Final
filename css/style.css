@@ -1,0 +1,106 @@
+body{
+    background-color: #fdf5ea;
+}
+
+.biografia{
+    padding: 100px 10px;
+}
+
+.main-titulo{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.main-parrafo{
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.videos {
+    margin-bottom: 100px;
+}
+
+.videos a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.videos a .album-texto {
+    background-color: antiquewhite;
+    padding: 20px 5px;
+}
+
+.videos a span {
+    background-color: darksalmon;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.videos a span:hover {
+    font-size: 18px;
+}
+
+.perfumes{
+    background-image: url("../img/bg_perfumes.png");
+    margin-bottom: 100px;
+}
+
+.perfumes .info{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.perfumes img{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+footer{
+    background-color: #111;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: darksalmon;
+}
+
+footer .redes{
+    padding-top: 30px;
+}
+
+footer .redes a{
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer .redes a:hover{
+    color: darksalmon;
+}
+
+footer h6{
+    font-size: 13px;
+    color: darkgray;
+}
