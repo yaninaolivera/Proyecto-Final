@@ -2,18 +2,18 @@ body {
     background: #fdf5ea;
 }
 .bg {
-    background-image: url('../img/Shakira2-2.jpg');
+    background-image: url('../img/shkira-contacto.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 #contenedor {
-    background: #e2b890;
+    display: flex;
+    flex-direction: row;
+    background: #faebd7;
+    margin-top: 150px;
+    color: black;
 }
-a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.6);
-}
-a:hover {
-    color: white;
+#contenedor h2 {
+    color: black;
 }
